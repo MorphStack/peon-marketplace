@@ -1,3 +1,11 @@
 {
-    "peons": []
+    "peons": [
+        {
+            "name": "ping",
+            "author": "CastleOps",
+            "type": "powershell",
+            "os": ["windows"],
+            "url": "https://github.com/MorphStack/Peon-Ping"
+        }
+    ]
 }
