@@ -4,9 +4,6 @@ on:
   push:
     branches-ignore:
       - main
-  pull_request:
-    branches-ignore:
-      - main
   workflow_dispatch:
 
 jobs:
@@ -19,4 +16,6 @@ jobs:
         with:
           node-version: 'lts/*'
       - name: Install dependencies
+        run: npm ci
+      - name: Validate configuration
         run: npm run validate
