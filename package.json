@@ -1,6 +1,6 @@
 {
   "name": "peon-marketplace",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Marketplace validation for peon configurations",
   "main": "dist/validate.js",
   "scripts": {
