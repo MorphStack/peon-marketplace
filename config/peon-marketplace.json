@@ -1,7 +1,8 @@
 {
     "peons": [
         {
-            "name": "ping",
+            "slug": "ping",
+            "name": "Ping device",
             "author": "CastleOps",
             "type": "powershell",
             "os": ["windows"],
