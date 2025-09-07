@@ -1,12 +1,13 @@
 {
     "peons": [
         {
-            "slug": "ping",
-            "name": "Ping device",
+            "name": "Ping Device",
+            "description": "A simple peon that pings a device to check its availability.",
             "author": "CastleOps",
+            "url": "https://github.com/MorphStack/Peon-Ping",
+            "tags": ["healthcheck", "monitoring", "ping"],
             "type": "powershell",
-            "os": ["windows"],
-            "url": "https://github.com/MorphStack/Peon-Ping"
+            "os": ["windows"]
         }
     ]
 }
